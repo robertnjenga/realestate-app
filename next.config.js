@@ -3,4 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  images: {
+    domains: ['ssl.cdn-redfin.com', 'my.matterport.com', 'redfin.com']
+  }
+}
